@@ -1,0 +1,23 @@
+{
+  "name": "loan-management-system",
+  "version": "1.0.0",
+  "description": "Loan Management System with MongoDB support and secure settings",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'No build step required for static files'",
+    "vercel-build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^5.9.2"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "keywords": ["loan", "management", "mongodb", "express", "finance"],
+  "author": "Your Name",
+  "license": "MIT"
+}
