@@ -5,6 +5,10 @@
   "installCommand": "npm install",
   "routes": [
     {
+      "src": "/api/loans(.*)",
+      "dest": "/api/index$1"
+    },
+    {
       "src": "/api/(.*)",
       "dest": "/api/$1"
     },
