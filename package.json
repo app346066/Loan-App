@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "vercel-build": "exit 0"
   },
   "dependencies": {
     "dotenv": "^17.2.2",
