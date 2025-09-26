@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "installCommand": "npm install",
   "routes": [
     {
       "src": "/api/(.*)",
@@ -14,6 +17,5 @@
     "api/**/*.js": {
       "maxDuration": 10
     }
-  },
-  "trailingSlash": false
+  }
 }
